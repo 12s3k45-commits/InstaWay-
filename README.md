@@ -1,27 +1,63 @@
-# InstaWay | إنستا واي
+# InstaWay | Smart Transportation & Booking Platform
 
-موقع حجز مقاعد العربية: العميل يختار الرحلة والكرسي ويبعت الحجز، والحجز بيتخزن في Google Sheet بتاع صاحب الموقع.
+**A modern digital platform designed to simplify transportation reservations and deliver a seamless booking experience.**
 
-## الملفات
+---
 
-| الملف | وظيفته |
-|---|---|
-| `index.html` | الموقع (محتوى الصفحة)، والشعار مدمج جواه. |
-| `style.css` | التصميم والألوان. |
-| `script.js` | التفاعلات والحجز، وفي أوله `CONFIG` للإعدادات. |
-| `README.md` | تعليمات النشر. |
+## About the Project
 
-## النشر على GitHub Pages
+InstaWay is a web-based transportation booking platform that enables customers to explore available trips, select their preferred seats, and submit reservation requests through a simple and intuitive interface.
 
-1. أنشئ Repository جديد على GitHub واختار **Public**.
-2. ارفع الملفات الأربعة دول في الجذر (root) مع بعض، بدون مجلدات.
-3. من **Settings ← Pages** اختار **Deploy from a branch**، ثم **main** و **/ (root)**، واضغط Save.
-4. بعد دقيقة أو اتنين هيظهر رابط الموقع: `https://USERNAME.github.io/REPO/`
+The platform focuses on usability, accessibility, and a responsive design to provide a smooth experience across desktop and mobile devices.
 
-## استقبال الحجوزات
+## Core Features**WhatsApp Integration:** Facilitate communication and reservation re
 
-الحجز مش هيتبعت لحد إلا لما تحط رابط Google Apps Script في `SCRIPT_URL` داخل `script.js` (في أول الملف، جوه `CONFIG`). لحد ما ده يحصل، الموقع هيعرض رسالة خطأ لما العميل يدوس "إتمام الحجز".
+- **Interactive Seat Selection:** Choose preferred seats through a visual seating layout.
+- **Reservation Management:** Submit booking requests with relevant trip and customer information.
+- **Responsive Interface:** Optimized for desktop, tablet, and mobile screens.
+- **Arabic RTL Support:** Designed to provide a natural Arabic browsing experience.
+- quests through WhatsApp.
 
-## الإعدادات
+## Technology Stack
 
-كل الإعدادات في `CONFIG` أول `script.js`: رابط الحجوزات، رقم المحفظة، وأرقام خدمة العملاء (لو سبتها فاضية بيظهر "سيتم إضافته قريبًا").
+| Technology   | Purpose                     |
+| ------------ | --------------------------- |
+| HTML5        | Website Structure           |
+| CSS3         | Styling & Responsive Design |
+| JavaScript   | Interactive Functionality   |
+| GitHub Pages | Website Hosting             |
+
+## Project Structure
+
+```text
+InstaWay/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
+
+## Getting Started
+
+1. Clone or download the repository.
+2. Open `index.html` in your browser.
+3. Configure the required booking information in `script.js`.
+4. Deploy the project using GitHub Pages.
+
+## Project Status
+
+**Current Version:** 1.0.0
+
+The current release provides the public-facing booking interface. Database integration, secure administration, and advanced reservation management are planned for future development.
+
+## Future Development
+
+- Secure administrator dashboard.
+- Centralized reservation database.
+- Real-time booking status management.
+- Customer and trip management.
+- Booking analytics and reporting.
+
+---
+
+**InstaWay — Making Every Journey Easier.**

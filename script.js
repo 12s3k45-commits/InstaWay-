@@ -65,8 +65,6 @@ $('pay').addEventListener('click',e=>{
     x.classList.toggle('on',x===b)
   );
 
-  $('payNote').classList.remove('hide');
-  $('payNote').textContent=`حوّل المبلغ عن طريق ${pay} على الرقم ${CONFIG.WALLET_NUMBER}.`;
   $('done').classList.add('hide');
 });
 

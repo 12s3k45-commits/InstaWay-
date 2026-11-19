@@ -3,7 +3,6 @@
 const CONFIG = {
   SUPABASE_URL: "https://fnoinnwtwnypooiiqtuv.supabase.co",
   SUPABASE_KEY: "sb_publishable_4V_wiNmgb3mx1eaVCDPfQA_YrBIXH9l",
-  WALLET_NUMBER: "[رقم المحفظة]",
   SUPPORT_PHONE: "",
   SUPPORT_WHATSAPP: "",
   // سعر الكرسي لكل وجهة بالجنيه
